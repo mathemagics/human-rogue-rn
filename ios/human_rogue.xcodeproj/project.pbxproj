@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		395B98D5265512CA0F8172A8 /* libPods-human_rogue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FBE15AAAD81A00AD504669 /* libPods-human_rogue.a */; };
+		3E5B10A59ED3918BCC87787F /* libPods-human_rogue-human_rogueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B68286C3514F420D606241DB /* libPods-human_rogue-human_rogueTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C84DB0D7DB05EA3AA72C3E94 /* libPods-human_rogue-human_rogueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A62C788D63384BF8D9A92E20 /* libPods-human_rogue-human_rogueTests.a */; };
-		F7BA242FC392E7CCA4910CC7 /* libPods-human_rogue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA1FE6B8827E7F17178AEDB /* libPods-human_rogue.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* human_rogueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = human_rogueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* human_rogueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = human_rogueTests.m; sourceTree = "<group>"; };
-		0E2C330C105A58FF234D306C /* Pods-human_rogue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-human_rogue.release.xcconfig"; path = "Target Support Files/Pods-human_rogue/Pods-human_rogue.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* human_rogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = human_rogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = human_rogue/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = human_rogue/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = human_rogue/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = human_rogue/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = human_rogue/main.m; sourceTree = "<group>"; };
-		5129FDB094AF4BA445320014 /* Pods-human_rogue-human_rogueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-human_rogue-human_rogueTests.debug.xcconfig"; path = "Target Support Files/Pods-human_rogue-human_rogueTests/Pods-human_rogue-human_rogueTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = human_rogue/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A62C788D63384BF8D9A92E20 /* libPods-human_rogue-human_rogueTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-human_rogue-human_rogueTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDA1FE6B8827E7F17178AEDB /* libPods-human_rogue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-human_rogue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C451C0160F468F6E72BCE8E5 /* Pods-human_rogue-human_rogueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-human_rogue-human_rogueTests.release.xcconfig"; path = "Target Support Files/Pods-human_rogue-human_rogueTests/Pods-human_rogue-human_rogueTests.release.xcconfig"; sourceTree = "<group>"; };
-		E35D8378FC08F944056281FB /* Pods-human_rogue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-human_rogue.debug.xcconfig"; path = "Target Support Files/Pods-human_rogue/Pods-human_rogue.debug.xcconfig"; sourceTree = "<group>"; };
+		B68286C3514F420D606241DB /* libPods-human_rogue-human_rogueTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-human_rogue-human_rogueTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90B36299B9B130783A2872C /* Pods-human_rogue-human_rogueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-human_rogue-human_rogueTests.release.xcconfig"; path = "Target Support Files/Pods-human_rogue-human_rogueTests/Pods-human_rogue-human_rogueTests.release.xcconfig"; sourceTree = "<group>"; };
+		D915D2D5A9466557CE495149 /* Pods-human_rogue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-human_rogue.release.xcconfig"; path = "Target Support Files/Pods-human_rogue/Pods-human_rogue.release.xcconfig"; sourceTree = "<group>"; };
+		E26DCDACA31AA14DD035A830 /* Pods-human_rogue-human_rogueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-human_rogue-human_rogueTests.debug.xcconfig"; path = "Target Support Files/Pods-human_rogue-human_rogueTests/Pods-human_rogue-human_rogueTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F8FBE15AAAD81A00AD504669 /* libPods-human_rogue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-human_rogue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A49F70A36CE76F64D41AB4 /* Pods-human_rogue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-human_rogue.debug.xcconfig"; path = "Target Support Files/Pods-human_rogue/Pods-human_rogue.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C84DB0D7DB05EA3AA72C3E94 /* libPods-human_rogue-human_rogueTests.a in Frameworks */,
+				3E5B10A59ED3918BCC87787F /* libPods-human_rogue-human_rogueTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7BA242FC392E7CCA4910CC7 /* libPods-human_rogue.a in Frameworks */,
+				395B98D5265512CA0F8172A8 /* libPods-human_rogue.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +86,11 @@
 		07C4DFD7EDCF16C77E986324 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E35D8378FC08F944056281FB /* Pods-human_rogue.debug.xcconfig */,
-				0E2C330C105A58FF234D306C /* Pods-human_rogue.release.xcconfig */,
-				5129FDB094AF4BA445320014 /* Pods-human_rogue-human_rogueTests.debug.xcconfig */,
-				C451C0160F468F6E72BCE8E5 /* Pods-human_rogue-human_rogueTests.release.xcconfig */,
+				F9A49F70A36CE76F64D41AB4 /* Pods-human_rogue.debug.xcconfig */,
+				D915D2D5A9466557CE495149 /* Pods-human_rogue.release.xcconfig */,
+				E26DCDACA31AA14DD035A830 /* Pods-human_rogue-human_rogueTests.debug.xcconfig */,
+				D90B36299B9B130783A2872C /* Pods-human_rogue-human_rogueTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,8 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				BDA1FE6B8827E7F17178AEDB /* libPods-human_rogue.a */,
-				A62C788D63384BF8D9A92E20 /* libPods-human_rogue-human_rogueTests.a */,
+				F8FBE15AAAD81A00AD504669 /* libPods-human_rogue.a */,
+				B68286C3514F420D606241DB /* libPods-human_rogue-human_rogueTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "human_rogueTests" */;
 			buildPhases = (
-				991341CCF12226A482B2EF98 /* [CP] Check Pods Manifest.lock */,
+				170A540D889E8623DDCB4762 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				5EAD50D08D88F5AA124187F9 /* [CP] Embed Pods Frameworks */,
-				37AD440B3222857FFA134353 /* [CP] Copy Pods Resources */,
+				9DCBAA2317F3FB05A92CC592 /* [CP] Embed Pods Frameworks */,
+				7E1E5329719377B447B410BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "human_rogue" */;
 			buildPhases = (
-				3C6B2DC6180CC4E88D8C7763 /* [CP] Check Pods Manifest.lock */,
+				A431B63DCE8BC14C85DFBC3D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				6E016E13E265AFBE2747B288 /* [CP] Embed Pods Frameworks */,
-				333D8B441DBF814129A7E8D5 /* [CP] Copy Pods Resources */,
+				1CD6647F4E2E7974B2ED6DCE /* [CP] Embed Pods Frameworks */,
+				C91B471306FCB36B921258F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,24 +264,46 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		333D8B441DBF814129A7E8D5 /* [CP] Copy Pods Resources */ = {
+		170A540D889E8623DDCB4762 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-human_rogue/Pods-human_rogue-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-human_rogue/Pods-human_rogue-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-human_rogue-human_rogueTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-human_rogue/Pods-human_rogue-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		37AD440B3222857FFA134353 /* [CP] Copy Pods Resources */ = {
+		1CD6647F4E2E7974B2ED6DCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-human_rogue/Pods-human_rogue-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-human_rogue/Pods-human_rogue-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-human_rogue/Pods-human_rogue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1E5329719377B447B410BF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,7 +320,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-human_rogue-human_rogueTests/Pods-human_rogue-human_rogueTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3C6B2DC6180CC4E88D8C7763 /* [CP] Check Pods Manifest.lock */ = {
+		9DCBAA2317F3FB05A92CC592 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-human_rogue-human_rogueTests/Pods-human_rogue-human_rogueTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-human_rogue-human_rogueTests/Pods-human_rogue-human_rogueTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-human_rogue-human_rogueTests/Pods-human_rogue-human_rogueTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A431B63DCE8BC14C85DFBC3D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,60 +359,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5EAD50D08D88F5AA124187F9 /* [CP] Embed Pods Frameworks */ = {
+		C91B471306FCB36B921258F4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-human_rogue-human_rogueTests/Pods-human_rogue-human_rogueTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-human_rogue/Pods-human_rogue-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-human_rogue-human_rogueTests/Pods-human_rogue-human_rogueTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-human_rogue/Pods-human_rogue-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-human_rogue-human_rogueTests/Pods-human_rogue-human_rogueTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E016E13E265AFBE2747B288 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-human_rogue/Pods-human_rogue-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-human_rogue/Pods-human_rogue-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-human_rogue/Pods-human_rogue-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		991341CCF12226A482B2EF98 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-human_rogue-human_rogueTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-human_rogue/Pods-human_rogue-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -429,7 +428,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5129FDB094AF4BA445320014 /* Pods-human_rogue-human_rogueTests.debug.xcconfig */;
+			baseConfigurationReference = E26DCDACA31AA14DD035A830 /* Pods-human_rogue-human_rogueTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +455,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C451C0160F468F6E72BCE8E5 /* Pods-human_rogue-human_rogueTests.release.xcconfig */;
+			baseConfigurationReference = D90B36299B9B130783A2872C /* Pods-human_rogue-human_rogueTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,11 +479,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E35D8378FC08F944056281FB /* Pods-human_rogue.debug.xcconfig */;
+			baseConfigurationReference = F9A49F70A36CE76F64D41AB4 /* Pods-human_rogue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RK58XU22P;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = human_rogue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,11 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E2C330C105A58FF234D306C /* Pods-human_rogue.release.xcconfig */;
+			baseConfigurationReference = D915D2D5A9466557CE495149 /* Pods-human_rogue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RK58XU22P;
 				INFOPLIST_FILE = human_rogue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
