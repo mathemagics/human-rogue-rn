@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "845323829024",
+    "project_id": "human-rogue-3c337",
+    "storage_bucket": "human-rogue-3c337.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845323829024:android:8741f011327e2011af2145",
+        "android_client_info": {
+          "package_name": "com.human_rogue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845323829024-fckmt5sgplvmjgbtn18fc89fuppot8mv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcJUX4p39YAdwvQPY2J1RsBwCdKsIBkt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845323829024-fckmt5sgplvmjgbtn18fc89fuppot8mv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

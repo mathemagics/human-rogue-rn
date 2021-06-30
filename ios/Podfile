@@ -30,4 +30,6 @@ target 'human_rogue' do
     end
     react_native_post_install(installer)
   end
+
+  pod 'Firebase/Analytics'
 end
